@@ -1,0 +1,2 @@
+let price = require ('./response.json') // require is importing a file // ./ is saying to import it from THIS folder // menu bar pops up with the other files in the folder
+console.log(price.data.amount)
