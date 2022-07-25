@@ -1,2 +1,2 @@
-let price = require ('./response.json') // require is importing a file // ./ is saying to import it from THIS folder // menu bar pops up with the other files in the folder
+let price = require ('./response.json') // require is importing a file // ./ is saying to import it from THIS folder // menu bar pops up with the other files in the folder // when importing a file make sure to includ the name of the file within the quotes 
 console.log(price.data.amount)
